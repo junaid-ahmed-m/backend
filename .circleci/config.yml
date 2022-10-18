@@ -42,6 +42,3 @@ workflows:
       - say-bye:
           requires:
             - say-hello
-  say-bye-onclose:
-    jobs:
-      - say-bye
